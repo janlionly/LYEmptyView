@@ -35,7 +35,8 @@
 1.Cocoapods方式集成: `pod 'LYEmptyView'`<br>
 使用时导入头文件 `#import <LYEmptyView/LYEmptyViewHeader.h>`
 <br><br>
-2.手动下载集成: 将LYEmptyView文件夹，导入你的工程<br>
+2.Carthage: github "janlionly/LYEmptyView" "master"
+3.手动下载集成: 将LYEmptyView文件夹，导入你的工程<br>
 使用时导入头文件：`#import "LYEmptyViewHeader.h"`
 
 

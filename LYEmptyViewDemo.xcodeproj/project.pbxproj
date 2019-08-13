@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271E01192302873D00C50922 /* JLEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 271E01172302873D00C50922 /* JLEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271E011C2302873D00C50922 /* JLEmptyView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 271E01152302873C00C50922 /* JLEmptyView.framework */; };
+		271E011D2302873D00C50922 /* JLEmptyView.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 271E01152302873C00C50922 /* JLEmptyView.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		271E01222302885D00C50922 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62151401FE1075D00E8BB36 /* LYEmptyBaseView.m */; };
+		271E01232302885D00C50922 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62151421FE1075D00E8BB36 /* LYEmptyView.m */; };
+		271E01242302885D00C50922 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = B649A86520A3D0F3005F733C /* UIView+Empty.m */; };
+		271E01252302885D00C50922 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B62151471FE1075D00E8BB36 /* UIView+LYExtension.m */; };
+		271E01262302888700C50922 /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = B621513F1FE1075D00E8BB36 /* LYEmptyBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271E01272302888700C50922 /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = B62151411FE1075D00E8BB36 /* LYEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271E01282302888700C50922 /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = B649A86420A3D0F3005F733C /* UIView+Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		271E01292302888700C50922 /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B62151461FE1075D00E8BB36 /* UIView+LYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B62151151FE0D13E00E8BB36 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B62151141FE0D13E00E8BB36 /* MBProgressHUD.m */; };
 		B62151341FE0D14E00E8BB36 /* Demo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B621511F1FE0D14E00E8BB36 /* Demo4ViewController.m */; };
 		B62151361FE0D14E00E8BB36 /* DemoEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = B62151221FE0D14E00E8BB36 /* DemoEmptyView.m */; };
@@ -38,6 +49,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		271E011A2302873D00C50922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6AA97331EC060B000B0CF55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 271E01142302873C00C50922;
+			remoteInfo = JLEmptyView;
+		};
 		B6AA97551EC060B000B0CF55 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B6AA97331EC060B000B0CF55 /* Project object */;
@@ -54,7 +72,24 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		271E01212302873D00C50922 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				271E011D2302873D00C50922 /* JLEmptyView.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		271E01152302873C00C50922 /* JLEmptyView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JLEmptyView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		271E01172302873D00C50922 /* JLEmptyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLEmptyView.h; sourceTree = "<group>"; };
+		271E01182302873D00C50922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B62151131FE0D13E00E8BB36 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		B62151141FE0D13E00E8BB36 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		B621511E1FE0D14E00E8BB36 /* Demo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo4ViewController.h; sourceTree = "<group>"; };
@@ -112,10 +147,18 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		271E01122302873C00C50922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6AA97381EC060B000B0CF55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271E011C2302873D00C50922 /* JLEmptyView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +179,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271E01162302873D00C50922 /* JLEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				271E01172302873D00C50922 /* JLEmptyView.h */,
+				271E01182302873D00C50922 /* Info.plist */,
+			);
+			path = JLEmptyView;
+			sourceTree = "<group>";
+		};
 		B62151111FE0D13E00E8BB36 /* ThirdPart */ = {
 			isa = PBXGroup;
 			children = (
@@ -232,6 +284,7 @@
 				B6AA973D1EC060B000B0CF55 /* LYEmptyViewDemo */,
 				B6AA97571EC060B000B0CF55 /* LYEmptyViewDemoTests */,
 				B6AA97621EC060B000B0CF55 /* LYEmptyViewDemoUITests */,
+				271E01162302873D00C50922 /* JLEmptyView */,
 				B6AA973C1EC060B000B0CF55 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -242,6 +295,7 @@
 				B6AA973B1EC060B000B0CF55 /* LYEmptyViewDemo.app */,
 				B6AA97541EC060B000B0CF55 /* LYEmptyViewDemoTests.xctest */,
 				B6AA975F1EC060B000B0CF55 /* LYEmptyViewDemoUITests.xctest */,
+				271E01152302873C00C50922 /* JLEmptyView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,7 +348,40 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		271E01102302873C00C50922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271E01192302873D00C50922 /* JLEmptyView.h in Headers */,
+				271E01262302888700C50922 /* LYEmptyBaseView.h in Headers */,
+				271E01272302888700C50922 /* LYEmptyView.h in Headers */,
+				271E01282302888700C50922 /* UIView+Empty.h in Headers */,
+				271E01292302888700C50922 /* UIView+LYExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		271E01142302873C00C50922 /* JLEmptyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 271E011E2302873D00C50922 /* Build configuration list for PBXNativeTarget "JLEmptyView" */;
+			buildPhases = (
+				271E01102302873C00C50922 /* Headers */,
+				271E01112302873C00C50922 /* Sources */,
+				271E01122302873C00C50922 /* Frameworks */,
+				271E01132302873C00C50922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLEmptyView;
+			productName = JLEmptyView;
+			productReference = 271E01152302873C00C50922 /* JLEmptyView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		B6AA973A1EC060B000B0CF55 /* LYEmptyViewDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6AA97681EC060B000B0CF55 /* Build configuration list for PBXNativeTarget "LYEmptyViewDemo" */;
@@ -302,10 +389,12 @@
 				B6AA97371EC060B000B0CF55 /* Sources */,
 				B6AA97381EC060B000B0CF55 /* Frameworks */,
 				B6AA97391EC060B000B0CF55 /* Resources */,
+				271E01212302873D00C50922 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				271E011B2302873D00C50922 /* PBXTargetDependency */,
 			);
 			name = LYEmptyViewDemo;
 			productName = LYEmptyViewDemo;
@@ -357,10 +446,15 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = liyang;
 				TargetAttributes = {
+					271E01142302873C00C50922 = {
+						CreatedOnToolsVersion = 10.3;
+						DevelopmentTeam = A73XC757VV;
+						ProvisioningStyle = Automatic;
+					};
 					B6AA973A1EC060B000B0CF55 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = EQXM5L9243;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = A73XC757VV;
+						ProvisioningStyle = Manual;
 					};
 					B6AA97531EC060B000B0CF55 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -379,6 +473,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -390,11 +485,19 @@
 				B6AA973A1EC060B000B0CF55 /* LYEmptyViewDemo */,
 				B6AA97531EC060B000B0CF55 /* LYEmptyViewDemoTests */,
 				B6AA975E1EC060B000B0CF55 /* LYEmptyViewDemoUITests */,
+				271E01142302873C00C50922 /* JLEmptyView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		271E01132302873C00C50922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6AA97391EC060B000B0CF55 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,6 +529,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		271E01112302873C00C50922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				271E01222302885D00C50922 /* LYEmptyBaseView.m in Sources */,
+				271E01232302885D00C50922 /* LYEmptyView.m in Sources */,
+				271E01242302885D00C50922 /* UIView+Empty.m in Sources */,
+				271E01252302885D00C50922 /* UIView+LYExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6AA97371EC060B000B0CF55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -471,6 +585,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		271E011B2302873D00C50922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 271E01142302873C00C50922 /* JLEmptyView */;
+			targetProxy = 271E011A2302873D00C50922 /* PBXContainerItemProxy */;
+		};
 		B6AA97561EC060B000B0CF55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B6AA973A1EC060B000B0CF55 /* LYEmptyViewDemo */;
@@ -503,6 +622,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		271E011F2302873D00C50922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = A73XC757VV;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JLEmptyView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.JLEmptyView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		271E01202302873D00C50922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = JLEmptyView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.JLEmptyView;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		B6AA97661EC060B000B0CF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -601,15 +802,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EQXM5L9243;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = A73XC757VV;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYEmptyViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYEmptyViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.empty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JustForTestID2;
 			};
 			name = Debug;
 		};
@@ -619,13 +820,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = EQXM5L9243;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYEmptyViewDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYEmptyViewDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.liyang.empty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.janlion.empty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -680,6 +881,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		271E011E2302873D00C50922 /* Build configuration list for PBXNativeTarget "JLEmptyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				271E011F2302873D00C50922 /* Debug */,
+				271E01202302873D00C50922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B6AA97361EC060B000B0CF55 /* Build configuration list for PBXProject "LYEmptyViewDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

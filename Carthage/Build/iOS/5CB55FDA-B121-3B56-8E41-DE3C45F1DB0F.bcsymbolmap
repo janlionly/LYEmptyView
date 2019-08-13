@@ -1,0 +1,198 @@
+BCSymbolMap Version: 2.0
+-[LYEmptyBaseView init]
+-[LYEmptyBaseView initialize]
+-[LYEmptyBaseView prepare]
+-[LYEmptyBaseView layoutSubviews]
+-[LYEmptyBaseView setupSubviews]
+-[LYEmptyBaseView willMoveToSuperview:]
++[LYEmptyBaseView emptyActionViewWithImage:titleStr:detailStr:btnTitleStr:target:action:]
++[LYEmptyBaseView emptyActionViewWithImage:titleStr:detailStr:btnTitleStr:btnClickBlock:]
++[LYEmptyBaseView emptyActionViewWithImageStr:titleStr:detailStr:btnTitleStr:target:action:]
++[LYEmptyBaseView emptyActionViewWithImageStr:titleStr:detailStr:btnTitleStr:btnClickBlock:]
++[LYEmptyBaseView emptyViewWithImage:titleStr:detailStr:]
++[LYEmptyBaseView emptyViewWithImageStr:titleStr:detailStr:]
++[LYEmptyBaseView emptyViewWithCustomView:]
+-[LYEmptyBaseView creatEmptyViewWithImage:imageStr:titleStr:detailStr:btnTitleStr:target:action:btnClickBlock:]
+-[LYEmptyBaseView creatEmptyViewWithCustomView:]
+-[LYEmptyBaseView tapEmptyView:]
+-[LYEmptyBaseView setImage:]
+-[LYEmptyBaseView setImageStr:]
+-[LYEmptyBaseView setTitleStr:]
+-[LYEmptyBaseView setDetailStr:]
+-[LYEmptyBaseView setBtnTitleStr:]
+-[LYEmptyBaseView image]
+-[LYEmptyBaseView imageStr]
+-[LYEmptyBaseView titleStr]
+-[LYEmptyBaseView detailStr]
+-[LYEmptyBaseView btnTitleStr]
+-[LYEmptyBaseView contentView]
+-[LYEmptyBaseView actionBtnTarget]
+-[LYEmptyBaseView actionBtnAction]
+-[LYEmptyBaseView btnClickBlock]
+-[LYEmptyBaseView customView]
+-[LYEmptyBaseView tapEmptyViewBlock]
+-[LYEmptyBaseView setTapEmptyViewBlock:]
+-[LYEmptyBaseView .cxx_destruct]
+_OBJC_IVAR_$_LYEmptyBaseView._image
+_OBJC_IVAR_$_LYEmptyBaseView._imageStr
+_OBJC_IVAR_$_LYEmptyBaseView._titleStr
+_OBJC_IVAR_$_LYEmptyBaseView._detailStr
+_OBJC_IVAR_$_LYEmptyBaseView._btnTitleStr
+_OBJC_IVAR_$_LYEmptyBaseView._actionBtnTarget
+_OBJC_IVAR_$_LYEmptyBaseView._actionBtnAction
+_OBJC_IVAR_$_LYEmptyBaseView._btnClickBlock
+_OBJC_IVAR_$_LYEmptyBaseView._contentView
+_OBJC_IVAR_$_LYEmptyBaseView._customView
+_OBJC_IVAR_$_LYEmptyBaseView._tapEmptyViewBlock
+Apple LLVM version 10.0.1 (clang-1001.0.46.4)
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/LYEmptyBaseView.m
+/Users/janlionly/iOS-Projects/LYEmptyView
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/LYEmptyBaseView.h
+-[LYEmptyView initialize]
+-[LYEmptyView prepare]
+-[LYEmptyView setupSubviews]
+-[LYEmptyView setSubViewFrame]
+-[LYEmptyView setupPromptImageView:]
+-[LYEmptyView setupTitleLabel:]
+-[LYEmptyView setupDetailLabel:]
+-[LYEmptyView setupActionBtn:target:action:btnClickBlock:]
+-[LYEmptyView setEmptyViewIsCompleteCoverSuperView:]
+-[LYEmptyView setSubViewMargin:]
+-[LYEmptyView setContentViewOffset:]
+-[LYEmptyView setContentViewY:]
+-[LYEmptyView setImageSize:]
+-[LYEmptyView setTitleLabFont:]
+-[LYEmptyView setTitleLabTextColor:]
+-[LYEmptyView setDetailLabFont:]
+-[LYEmptyView setDetailLabMaxLines:]
+-[LYEmptyView setDetailLabTextColor:]
+-[LYEmptyView setActionBtnFont:]
+-[LYEmptyView setActionBtnHeight:]
+-[LYEmptyView setActionBtnWidth:]
+-[LYEmptyView setActionBtnHorizontalMargin:]
+-[LYEmptyView setActionBtnCornerRadius:]
+-[LYEmptyView setActionBtnBorderWidth:]
+-[LYEmptyView setActionBtnBorderColor:]
+-[LYEmptyView setActionBtnTitleColor:]
+-[LYEmptyView setActionBtnBackGroundColor:]
+-[LYEmptyView actionBtnClick:]
+-[LYEmptyView returnTextWidth:size:font:]
+-[LYEmptyView promptImageView]
+-[LYEmptyView titleLabel]
+-[LYEmptyView detailLabel]
+-[LYEmptyView actionButton]
+-[LYEmptyView autoShowEmptyView]
+-[LYEmptyView setAutoShowEmptyView:]
+-[LYEmptyView emptyViewIsCompleteCoverSuperView]
+-[LYEmptyView subViewMargin]
+-[LYEmptyView contentViewOffset]
+-[LYEmptyView contentViewY]
+-[LYEmptyView ignoreContentInset]
+-[LYEmptyView setIgnoreContentInset:]
+-[LYEmptyView imageSize]
+-[LYEmptyView titleLabFont]
+-[LYEmptyView titleLabTextColor]
+-[LYEmptyView detailLabFont]
+-[LYEmptyView detailLabMaxLines]
+-[LYEmptyView detailLabTextColor]
+-[LYEmptyView actionBtnFont]
+-[LYEmptyView actionBtnHeight]
+-[LYEmptyView actionBtnWidth]
+-[LYEmptyView actionBtnHorizontalMargin]
+-[LYEmptyView actionBtnCornerRadius]
+-[LYEmptyView actionBtnBorderWidth]
+-[LYEmptyView actionBtnBorderColor]
+-[LYEmptyView actionBtnTitleColor]
+-[LYEmptyView actionBtnBackGroundColor]
+-[LYEmptyView setPromptImageView:]
+-[LYEmptyView setTitleLabel:]
+-[LYEmptyView setDetailLabel:]
+-[LYEmptyView setActionButton:]
+-[LYEmptyView customV]
+-[LYEmptyView setCustomV:]
+-[LYEmptyView .cxx_destruct]
+_OBJC_IVAR_$_LYEmptyView.contentMaxWidth
+_OBJC_IVAR_$_LYEmptyView.contentWidth
+_OBJC_IVAR_$_LYEmptyView.contentHeight
+_OBJC_IVAR_$_LYEmptyView.subViweMargin
+_OBJC_IVAR_$_LYEmptyView._promptImageView
+_OBJC_IVAR_$_LYEmptyView._titleLabel
+_OBJC_IVAR_$_LYEmptyView._detailLabel
+_OBJC_IVAR_$_LYEmptyView._actionButton
+_OBJC_IVAR_$_LYEmptyView._emptyViewIsCompleteCoverSuperView
+_OBJC_IVAR_$_LYEmptyView._subViewMargin
+_OBJC_IVAR_$_LYEmptyView._contentViewOffset
+_OBJC_IVAR_$_LYEmptyView._contentViewY
+_OBJC_IVAR_$_LYEmptyView._imageSize
+_OBJC_IVAR_$_LYEmptyView._titleLabFont
+_OBJC_IVAR_$_LYEmptyView._titleLabTextColor
+_OBJC_IVAR_$_LYEmptyView._detailLabFont
+_OBJC_IVAR_$_LYEmptyView._detailLabMaxLines
+_OBJC_IVAR_$_LYEmptyView._detailLabTextColor
+_OBJC_IVAR_$_LYEmptyView._actionBtnFont
+_OBJC_IVAR_$_LYEmptyView._actionBtnHeight
+_OBJC_IVAR_$_LYEmptyView._actionBtnWidth
+_OBJC_IVAR_$_LYEmptyView._actionBtnHorizontalMargin
+_OBJC_IVAR_$_LYEmptyView._actionBtnCornerRadius
+_OBJC_IVAR_$_LYEmptyView._actionBtnBorderWidth
+_OBJC_IVAR_$_LYEmptyView._actionBtnBorderColor
+_OBJC_IVAR_$_LYEmptyView._actionBtnTitleColor
+_OBJC_IVAR_$_LYEmptyView._actionBtnBackGroundColor
+_OBJC_IVAR_$_LYEmptyView._autoShowEmptyView
+_OBJC_IVAR_$_LYEmptyView._ignoreContentInset
+_OBJC_IVAR_$_LYEmptyView._customV
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/LYEmptyView.m
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/LYEmptyView.h
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+CGSizeMake
+CGPointMake
++[UIView(Empty) exchangeInstanceMethod1:method2:]
+-[UIView(Empty) setLy_emptyView:]
+-[UIView(Empty) ly_emptyView]
+-[UIView(Empty) totalDataCount]
+-[UIView(Empty) getDataAndSet]
+-[UIView(Empty) show]
+-[UIView(Empty) hide]
+-[UIView(Empty) ly_showEmptyView]
+-[UIView(Empty) ly_hideEmptyView]
+-[UIView(Empty) ly_startLoading]
+-[UIView(Empty) ly_endLoading]
++[UITableView(Empty) load]
+-[UITableView(Empty) ly_reloadData]
+-[UITableView(Empty) ly_insertSections:withRowAnimation:]
+-[UITableView(Empty) ly_deleteSections:withRowAnimation:]
+-[UITableView(Empty) ly_reloadSections:withRowAnimation:]
+-[UITableView(Empty) ly_insertRowsAtIndexPaths:withRowAnimation:]
+-[UITableView(Empty) ly_deleteRowsAtIndexPaths:withRowAnimation:]
+-[UITableView(Empty) ly_reloadRowsAtIndexPaths:withRowAnimation:]
++[UICollectionView(Empty) load]
+-[UICollectionView(Empty) ly_reloadData]
+-[UICollectionView(Empty) ly_insertSections:]
+-[UICollectionView(Empty) ly_deleteSections:]
+-[UICollectionView(Empty) ly_reloadSections:]
+-[UICollectionView(Empty) ly_insertItemsAtIndexPaths:]
+-[UICollectionView(Empty) ly_deleteItemsAtIndexPaths:]
+-[UICollectionView(Empty) ly_reloadItemsAtIndexPaths:]
+_kEmptyViewKey
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/UIView+Empty.m
+-[UIView(LYExtension) setLy_x:]
+-[UIView(LYExtension) ly_x]
+-[UIView(LYExtension) setLy_y:]
+-[UIView(LYExtension) ly_y]
+-[UIView(LYExtension) setLy_centerX:]
+-[UIView(LYExtension) ly_centerX]
+-[UIView(LYExtension) setLy_centerY:]
+-[UIView(LYExtension) ly_centerY]
+-[UIView(LYExtension) setLy_width:]
+-[UIView(LYExtension) ly_width]
+-[UIView(LYExtension) setLy_height:]
+-[UIView(LYExtension) ly_height]
+-[UIView(LYExtension) setLy_size:]
+-[UIView(LYExtension) ly_size]
+-[UIView(LYExtension) setLy_origin:]
+-[UIView(LYExtension) ly_origin]
+-[UIView(LYExtension) ly_maxX]
+-[UIView(LYExtension) ly_maxY]
+/Users/janlionly/iOS-Projects/LYEmptyView/LYEmptyView/UIView+LYExtension.m
+/Users/janlionly/Library/Developer/Xcode/DerivedData/LYEmptyViewDemo-fcbdoljsntdareclmcfnggmycpcl/Build/Intermediates.noindex/ArchiveIntermediates/JLEmptyView/IntermediateBuildFilesPath/LYEmptyViewDemo.build/Release-iphoneos/JLEmptyView.build/DerivedSources/JLEmptyView_vers.c

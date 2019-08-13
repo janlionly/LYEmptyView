@@ -1,0 +1,6 @@
+framework module JLEmptyView {
+  umbrella header "JLEmptyView.h"
+
+  export *
+  module * { export * }
+}
